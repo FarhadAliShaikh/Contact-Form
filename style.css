@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: #f2f2f2;
+    margin: 0px 12px 12px 12px;
+    padding: 20px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 0px 0px 2px 2px;
+}
+
+.heading-container p {
+    margin: 0;
+}
+
+.heading-container {
+    background-color: yellowgreen;
+    overflow: hidden;
+    margin: 12px 12px 0px 12px;
+    border-radius: 34px 34px 0px 0px;
+    padding: 30px 45px;
+}
+
+.main-heading {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.secondary-heading {
+    font-size: 17px;
+}
+
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.send-btn {
+    background-color: yellowgreen;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.send-btn:hover {
+    background-color: red;
+}
